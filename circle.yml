@@ -1,0 +1,10 @@
+---
+
+dependencies:
+    override:
+        # Stop the circleci composer install getting confused by download type "vcs"
+        - composer install --prefer-dist --no-interaction
+
+test:
+    override:
+        - bin/phpunit --log-junit $CIRCLE_TEST_REPORTS/junit.xml

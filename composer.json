@@ -1,0 +1,30 @@
+{
+    "name": "kurl/csv-parser",
+    "description": "Parse CSV in PHP arrays",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kurl\\ToolKit\\Csv\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kurl\\Tests\\ToolKit\\Csv\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Breen",
+            "email": "chris@kurl.io"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
